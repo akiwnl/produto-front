@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:produto_front/product_form.dart';
+import 'package:produto_front/product_list.dart';
 import 'package:produto_front/product_provider.dart';
 
 void main() {
@@ -32,8 +33,11 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        home: const ProductListPage(),
-        routes: {},
+        home: const ProductList(),
+        routes: {
+          "/listagem": (context) => const ProductList(),
+          "/cadastro": (context) => const ProductForm(),
+        },
       ),
     );
   }

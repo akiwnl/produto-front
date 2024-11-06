@@ -7,10 +7,6 @@ As funcionalidades presentes no aplicativo são:
   - Listagem de produtos
   - Deletar produtos
 
-## Índice
-- Instalação
-- Autor
-
 ## Instalação
 Primeiramente clone o seguinte repositório:
 

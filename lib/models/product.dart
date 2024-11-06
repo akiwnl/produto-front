@@ -15,12 +15,11 @@ class Product {
 
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
-      id: json['id'],
-      description: json['description'],
-      price: double.tryParse(json['price'].toString()) ??
-          0.0, // Convertendo corretamente para double
-      quantity: json['quantity'],
-      createdAt: DateTime.parse(json['created_at']),
+      id: json['id'] ?? 0,
+      description: json['description'] ?? '',
+      price: double.tryParse(json['price']?.toString() ?? '0.0') ?? 0.0,
+      quantity: json['quantity'] ?? 0,
+      createdAt: DateTime.tryParse(json['created_at'] ?? '') ?? DateTime.now(),
     );
   }
 

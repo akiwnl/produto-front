@@ -1,16 +1,36 @@
-# produto_front
+O aplicativo foi desenvolvido usando Flutter para a disciplina de Desenvolvimento Móvel da Universidade Tecnológica Federal do Paraná - Campus Campo Mourão, 
+com a finalidade de conhecer a tecnologia e ter um primeiro contato com a linguagem.
+As funcionalidades presentes no aplicativo são:
+  - Cadastro de produtos
+  - Edição de produtos
+  - Listagem de produtos
+  - Deletar produtos
 
-A new Flutter project.
+## Índice
+- Instalação
+- Autor
 
-## Getting Started
+## Instalação
+Primeiramente clone o seguinte repositório:
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/akiwnl/produto-front.git
+```
+Em seguida para rodar a aplicação, certifique-se de que o back-end esteja em execução.
+Mais detalhes podem ser encontados aqui: [produto-api](https://github.com/akiwnl/produto-api)
 
-A few resources to get you started if this is your first Flutter project:
+A seguir acesse o diretório da aplicação:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+cd produto-front
+```
+Para executar o front-end, utilize o comando:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run
+```
+
+Para rodar um app Linux, escolha a opção adequada.
+
+## Autor
+  - Kaike Carvalho - kaikecarvalho@alunos.utfpr.edu.br

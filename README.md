@@ -21,6 +21,13 @@ A seguir acesse o diretório da aplicação:
 ```bash
 cd produto-front
 ```
+
+Instale as dependências, utilizando o comando:
+
+```bash
+flutter pub get
+```
+
 Para executar o front-end, utilize o comando:
 
 ```bash

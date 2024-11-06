@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/product.dart';
 
 class ProductRepository {
-  final String baseUrl = 'http://10.0.2.2:3000/products';
+  final String baseUrl = 'http://localhost:3000/products';
 
   Future<List<Product>> getAllProducts() async {
     final response = await http.get(Uri.parse(baseUrl));
